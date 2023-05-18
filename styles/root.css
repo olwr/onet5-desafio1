@@ -1,0 +1,28 @@
+:root {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: min-content;
+
+    background: linear-gradient(270deg, #b5c99a, #87986a, #718355);
+    background-size: 600% 600%;
+
+    -webkit-animation: bckg-animacao 11s ease infinite;
+    -moz-animation: bckg-animacao 11s ease infinite;
+    animation: bckg-animacao 11s ease infinite;
+}
+
+@-webkit-keyframes bckg-animacao {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes bckg-animacao {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes bckg-animacao {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
